@@ -1,0 +1,12 @@
+pip install ultralytics opencv-python
+
+python -m venv obj_env
+obj_env\Scripts\activate
+pip install ultralytics opencv-python "numpy<2"
+python detect.py
+
+# to run the program
+python -m venv obj_env
+obj_env\Scripts\activate
+pip install ultralytics opencv-python "numpy<2"
+python detect.py
